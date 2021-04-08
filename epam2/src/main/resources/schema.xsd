@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:tns="http://www.w3.org/2001/XMLSchema">
+
+    <element name="Candies" abstract="true">
+        <complexType>
+            <sequence>
+                <element name="Candy" type="tns:Candy" minOccurs="16" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="Candy">
+        <all>
+            <element name="Name" type="tns:Name-tns"/>
+            <element name="Energy" type="integer"/>
+            <element name="Type" type="tns:Type-tns"/>
+            <element name="Ingredients" type="tns:Ingredients-tns"/>
+            <element name="Value" type="tns:Value-tns"/>
+        </all>
+        <attribute name="identifierName" type="tns:IdentifierName-tns" use="required"/>
+        <attribute name="production" use="optional" default="Komunarkd">
+            <simpleType>
+                <restriction base="string">
+                    <enumeration value="Komunarka"/>
+                    <enumeration value="Spartak"/>
+                    <enumeration value="Slodich"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+    </complexType>
+
+    <simpleType name="IdentifierName-tns">
+        <restriction base="ID">
+            <pattern value="\\w {2,20}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Name-tns">
+        <restriction base="string">
+            <minLength value="2"/>
+            <maxLength value="20"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Type-tns">
+        <restriction base="string">
+            <enumeration value="caramel"/>
+            <enumeration value="chocolate"/>
+            <enumeration value="chocolate with filling"/>
+        </restriction>
+    </simpleType>
+
+
+    <complexType name="Ingredients-tns">
+        <all>
+            <element name="water" type="positiveInteger"/>
+            <element name="sugar" type="positiveInteger"/>
+            <element name="fructose" type="positiveInteger"/>
+            <element name="chocoType" type="string"/>
+            <element name="vanillin" type="positiveInteger"/>
+        </all>
+    </complexType>
+
+    <complexType name="Value-tns">
+        <all>
+            <element name="protein" type="positiveInteger"/>
+            <element name="carbohydrates" type="positiveInteger"/>
+            <element name="fats" type="positiveInteger"/>
+        </all>
+    </complexType>
+
+    <element name="candy" type="tns:Candy" substitutionGroup="tns:Candies"/>

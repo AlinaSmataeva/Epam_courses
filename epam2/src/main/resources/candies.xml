@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<candies xmlns:xsi="special.xsd">
+
+    <candy identifier-name="Slad1" production="xsi:Komunarka"><!--1-->
+        <name>Caramello</name>
+        <energy>69</energy>
+        <type> caramel </type>
+        <ingredients>
+            <water>14</water>
+            <sugar>10</sugar>
+            <fructose>33</fructose>
+            <vanillin>0</vanillin>
+        </ingredients>
+        <value>
+            <protein>16</protein>
+            <carbohydrates>yes</carbohydrates>
+            <fats>50</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad2" production="xsi:Spartak">
+        <name>ChokolateBoom</name>
+        <energy>130</energy>
+        <type> chocolate </type>
+        <ingredients>
+            <water>12</water>
+            <sugar>30</sugar>
+            <fructose>13</fructose>
+            <vanillin>16</vanillin>
+            <choco-type>FirstType</choco-type>
+        </ingredients>
+        <value>
+            <protein>23</protein>
+            <carbohydrates>44</carbohydrates>
+            <fats>11</fats><!--in g-->
+        </value>
+    </candy>
+
+    <candy identifierName="Slad3" production="xsi:Spartak">
+        <name>Yahoo</name>
+        <energy>120</energy>
+        <type> chocolate with filling </type>
+        <ingredients>
+            <water>13</water>
+            <sugar>30</sugar>
+            <fructose>144</fructose>
+            <vanillin>121</vanillin>
+            <chocoType>SecondType</chocoType>
+        </ingredients>
+        <value>
+            <protein>65</protein>
+            <carbohydrates>34</carbohydrates>
+            <fats>15</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad4" production="xsi:Komunarka">
+        <name>OpusMagnum</name>
+        <energy>88</energy>
+        <type> caramel </type>
+        <ingredients>
+            <water>20</water>
+            <sugar>20</sugar>
+            <fructose>20</fructose>
+            <vanillin>0</vanillin>
+        </ingredients>
+        <value>
+            <protein>2</protein>
+            <carbohydrates>30</carbohydrates>
+            <fats>5</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad5" production="xsi:Slodich">
+        <name>SHNICKERS</name>
+        <energy>300</energy>
+        <type> chocolate with filling </type>
+        <ingredients>
+            <water>30</water>
+            <sugar>100</sugar>
+            <fructose>80</fructose>
+            <vanillin>20</vanillin>
+            <chocoType>ThirdType</chocoType>
+        </ingredients>
+        <value>
+            <protein>30</protein>
+            <carbohydrates>59</carbohydrates>
+            <fats>40</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad6" production="xsi:Spartak">
+        <name>CarMakar</name>
+        <energy>149</energy>
+        <type> caramel </type>
+        <ingredients>
+            <water>40</water>
+            <sugar>40</sugar>
+            <fructose>40</fructose>
+            <vanillin>0</vanillin>
+        </ingredients>
+        <value>
+            <protein>11</protein>
+            <carbohydrates>11</carbohydrates>
+            <fats>11</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad7" production="xsi:Slodich">
+        <name>PaTATAA</name>
+        <energy>666</energy>
+        <type> chocolate with filling </type>
+        <ingredients>
+            <Water>14</Water>
+            <Sugar>14</Sugar>
+            <Fructose>14</Fructose>
+            <Vanillin>14</Vanillin>
+            <ChocoType>EigthyEightType</ChocoType>
+        </ingredients>
+        <value>
+            <protein>20</protein>
+            <carbohydrates>100</carbohydrates>
+            <fats>20</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad8" production="xsi:Komunarka">
+        <name>HeyHo</name>
+        <energy>212</energy>
+        <type> chocolate </type>
+        <ingredients>
+            <water>44</water>
+            <sugar>34</sugar>
+            <fructose>54</fructose>
+            <vanillin>14</vanillin>
+            <chocoType>SecondType</chocoType>
+        </ingredients>
+        <value>
+            <protein>30</protein>
+            <carbohydrates>120</carbohydrates>
+            <fats>24</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad9" production="xsi:Komunarka">
+        <name>Curcul</name>
+        <energy>60</energy>
+        <type> caramel </type>
+        <ingredients>
+            <water>45</water>
+            <sugar>136</sugar>
+
+            <fructose>343</fructose>
+            <vanillin>0</vanillin>
+        </ingredients>
+        <value>
+            <protein>1</protein>
+            <carbohydrates>58</carbohydrates>
+            <fats>50</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad10" production="xsi:Slodich">
+        <name>NoWay</name>
+        <energy>123</energy>
+        <type> chocolate with filling </type>
+        <ingredients>
+            <water>24</water>
+            <sugar>54</sugar>
+            <fructose>37</fructose>
+            <vanillin>185</vanillin>
+            <chocoType>FourthType</chocoType>
+        </ingredients>
+        <value>
+            <protein>22</protein>
+            <carbohydrates>122</carbohydrates>
+            <fats>22</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad11" production="xsi:Komunarka">
+        <name>RoomTour</name>
+        <energy>123</energy>
+        <type> chocolate </type>
+        <ingredients>
+            <water>12</water>
+            <sugar>34</sugar>
+            <fructose>56</fructose>
+            <vanillin>78</vanillin>
+            <chocoType>ForgottenType</chocoType>
+        </ingredients>
+        <value>
+            <protein>90</protein>
+            <carbohydrates>678</carbohydrates>
+            <fats>345</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad12" production="xsi:Slodich">
+        <name>WaterField</name>
+        <energy>10</energy>
+        <type> caramel </type>
+        <ingredients>
+            <water>999</water>
+            <sugar>1</sugar>
+            <fructose>1</fructose>
+            <vanillin>0</vanillin>
+        </ingredients>
+        <value>
+            <protein>1</protein>
+            <carbohydrates>1</carbohydrates>
+            <fats>1</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad13" production="xsi:Spartak">
+        <name>GodSays</name>
+        <energy>333</energy>
+        <type> chocolate with filling </type>
+        <ingredients>
+            <water>33</water>
+            <sugar>33</sugar>
+            <fructose>33</fructose>
+            <vanillin>33</vanillin>
+            <chocoType>ThirdType</chocoType>
+        </ingredients>
+        <value>
+            <protein>33</protein>
+            <carbohydrates>33</carbohydrates>
+            <fats>33</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad14" production="xsi:Komunarka">
+        <name>USSRISKAIF!!!</name>
+        <energy>1922</energy>
+        <type> chocolate </type>
+        <ingredients>
+            <water>12</water>
+            <sugar>34</sugar>
+            <fructose>56</fructose>
+            <vanillin>78</vanillin>
+            <chocoType>ForgottenType</chocoType>
+        </ingredients>
+        <value>
+            <protein>90</protein>
+            <carbohydrates>678</carbohydrates>
+            <fats>1991</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad15" production="xsi:Spartak">
+        <name>SPARTA</name>
+        <energy>111</energy>
+        <type> caramel </type>
+        <ingredients>
+            <water>11</water>
+            <sugar>11</sugar>
+            <fructose>11</fructose>
+            <vanillin>11</vanillin>
+        </ingredients>
+        <value>
+            <protein>11</protein><
+            <carbohydrates>11</carbohydrates>
+            <fats>11</fats>
+        </value>
+    </candy>
+
+    <candy identifierName="Slad16" production="xsi:Slodich"/>
+    <name>Finally!</name>
+    <energy>0</energy>
+    <type> chocolate with filling </type>
+    <ingredients>
+        <water>0</water>
+        <sugar>100</sugar>
+        <fructose>100</fructose>
+        <vanillin>100</vanillin>
+        <chocoType>TheLastType</chocoType>
+    </ingredients>
+    <value>
+        <protein>0</protein>
+        <carbohydrates>100</carbohydrates>
+        <fats>100</fats>
+    </value>
+
+</candies>
